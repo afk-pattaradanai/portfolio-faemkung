@@ -1,5 +1,4 @@
 const isProd = process.env.NODE_ENV === 'production';
-const repo = 'portfolio-faemkung'; // ต้องตรงกับชื่อ repo บน GitHub
 
 const securityHeaders = [
   { key: 'X-Content-Type-Options', value: 'nosniff' },
@@ -14,8 +13,8 @@ const nextConfig = {
   trailingSlash: true,
   reactStrictMode: true,
   images: { unoptimized: true },
-  basePath: isProd ? `/${repo}` : '',
-  assetPrefix: isProd ? `/${repo}/` : '',
+
+  // ใช้ custom domain (faemkung.inwthai.online) เว็บอยู่ที่ root จึงไม่ต้องมี basePath / assetPrefix
 
   // headers ใช้ได้เฉพาะตอน dev (next dev) เพราะ static export ไม่รองรับ
   ...(!isProd && {
