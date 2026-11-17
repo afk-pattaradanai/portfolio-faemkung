@@ -1,0 +1,10 @@
+/ (Single page)
+├── #home        Hero
+├── #about       About Me
+├── #education   Education Timeline
+├── #experience  Experience Timeline
+├── #projects    Projects Showcase
+├── #tech-stack  Tech Stack & Tools
+└── #contact     Contact
+/404 (Custom Not Found)
+/sitemap.xml · /robots.txt · /manifest.webmanifest · /icon · /apple-icon · /opengraph-image

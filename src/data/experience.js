@@ -1,0 +1,36 @@
+// relatedEducationId ต้องตรงกับ id ใน education.js เพื่อแสดงความสัมพันธ์ "ระหว่างศึกษา"
+// role: ตำแหน่งงาน (ยังไม่ได้รับข้อมูล → null)
+export const experience = [
+  {
+    id: 'advice-lamphun',
+    order: 1,
+    organization: 'Advice Lamphun',
+    organizationTh: null,
+    role: null,
+    type: 'internship',
+    typeLabel: 'Internship · ฝึกงาน',
+    duration: '4 เดือน (1 ภาคเรียน)',
+    relatedEducationId: 'bhic-vocational',
+    relatedLabel: 'ระหว่างศึกษา ปวช.3',
+    location: null,
+    description: 'ฝึกงานระหว่างการศึกษาระดับ ปวช.3 เป็นระยะเวลา 4 เดือน หรือ 1 ภาคเรียน',
+    website: null,
+    logo: null,
+  },
+  {
+    id: 'hana-microelectronics',
+    order: 2,
+    organization: 'Hana Microelectronics Public Co., Ltd.',
+    organizationTh: 'บริษัท ฮานาไมโครอิเล็คโทรนิคส์ จำกัด (มหาชน)',
+    role: null,
+    type: 'work-experience',
+    typeLabel: 'Work Experience · ประสบการณ์ระหว่างศึกษา',
+    duration: '1 ปีการศึกษา',
+    relatedEducationId: 'bhic-high-vocational',
+    relatedLabel: 'ระหว่างศึกษา ปวส.2',
+    location: 'จังหวัดลำพูน',
+    description: 'ประสบการณ์การทำงานในองค์กรระหว่างการศึกษาระดับ ปวส.2 เป็นระยะเวลา 1 ปีการศึกษา',
+    website: 'https://www.hanagroup.com/',
+    logo: null,
+  },
+];

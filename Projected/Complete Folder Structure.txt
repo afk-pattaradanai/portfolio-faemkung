@@ -1,0 +1,30 @@
+portfolio/
+├── public/
+│   └── images/
+│       ├── profile.webp            ← (คุณเพิ่มเอง)
+│       └── projects/               ← (คุณเพิ่มเอง: project-404.webp, gl-cinema.webp)
+├── src/
+│   ├── app/
+│   │   ├── layout.jsx  page.jsx  globals.css  not-found.jsx
+│   │   ├── sitemap.js  robots.js  manifest.js
+│   │   └── icon.jsx  apple-icon.jsx  opengraph-image.jsx
+│   ├── components/
+│   │   ├── providers/  EmotionRegistry.jsx  Providers.jsx
+│   │   ├── layout/     Header.jsx DesktopNav.jsx MobileNav.jsx Footer.jsx Logo.jsx Container.jsx Section.jsx
+│   │   ├── sections/   Hero.jsx AboutSection.jsx EducationSection.jsx ExperienceSection.jsx
+│   │   │               ProjectsSection.jsx TechStackSection.jsx ContactSection.jsx
+│   │   │   └── hero/   HeroIntro.jsx HeroCTA.jsx SocialShortcuts.jsx ProfileImage.jsx
+│   │   ├── timeline/   EducationTimeline.jsx ExperienceTimeline.jsx
+│   │   ├── projects/   ProjectGallery.jsx
+│   │   ├── tech/       TechStackGallery.jsx
+│   │   ├── contact/    ContactCard.jsx
+│   │   ├── seo/        JsonLd.jsx
+│   │   └── ui/         Badge.jsx Button.jsx buttonStyles.js Card.jsx CopyButton.jsx CurrentYear.jsx
+│   │                   ExternalLink.jsx Icon.jsx IconButton.jsx ProjectCard.jsx RevealObserver.jsx
+│   │                   ScrollProgress.jsx BackToTop.jsx SectionHeading.jsx SocialIconButton.jsx
+│   │                   TechCard.jsx ThemeToggle.jsx
+│   ├── data/   site.js navigation.js profile.js education.js experience.js projects.js techStack.js socialLinks.js
+│   ├── hooks/  useActiveSection.js useScrollThreshold.js useCopyToClipboard.js
+│   ├── lib/    cn.js clipboard.js theme.js url.js structuredData.js
+│   └── theme/  tokens.js fonts.js
+├── .gitignore  eslint.config.mjs  jsconfig.json  next.config.mjs  postcss.config.mjs  package.json  README.md
