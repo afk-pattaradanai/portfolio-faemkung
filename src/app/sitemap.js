@@ -1,4 +1,5 @@
 import { site } from '@/data/site';
+export const dynamic = 'force-static';
 
 export default function sitemap() {
   // No domain yet → empty sitemap. Set site.url in src/data/site.js to enable.
